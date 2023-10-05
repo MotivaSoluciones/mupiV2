@@ -194,8 +194,8 @@
 						<li>Our model wears a size Medium and is 185.5cm/6'1" tall</li>
 					</ul>
 				</div>
-				<div id="tab-2" class="tab-panel">
-					<p>Quisque sodales sodales lacus pharetra bibendum. Etiam commodo non velit ac rhoncus. Mauris euismod purus sem, ac adipiscing quam laoreet et. Praesent vulputate ornare sem vel scelerisque. Ut dictum augue non erat lacinia, sed lobortis elit gravida. Proin ante massa, ornare accumsan ultricies et, posuere sit amet magna. Praesent dignissim, enim sed malesuada luctus, arcu sapien sodales sapien, ut placerat eros nunc vel est. Donec tristique mi turpis, et sodales nibh gravida eu. Etiam odio risus, porttitor non lacus id, rhoncus tempus tortor. Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue.</p>
+				<div id="tab-2" class="tab-panel ">
+					<p class="text-justify">Quisque sodales sodales lacus pharetra bibendum. Etiam commodo non velit ac rhoncus. Mauris euismod purus sem, ac adipiscing quam laoreet et. Praesent vulputate ornare sem vel scelerisque. Ut dictum augue non erat lacinia, sed lobortis elit gravida. Proin ante massa, ornare accumsan ultricies et, posuere sit amet magna. Praesent dignissim, enim sed malesuada luctus, arcu sapien sodales sapien, ut placerat eros nunc vel est. Donec tristique mi turpis, et sodales nibh gravida eu. Etiam odio risus, porttitor non lacus id, rhoncus tempus tortor. Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue.Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue. Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue.</p>
 				</div>
 			</div>
 		</div>
@@ -203,7 +203,7 @@
 			<div class="section-title text-center">
 				<h3>Más sobre la marca</h3>
 			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia incidunt qui iste cum eum dolores sed hic optio. Nemo quia corporis, a rem fuga dolores tenetur consequuntur voluptatem non provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus debitis maxime voluptas at provident magni corporis inventore! Quisquam, enim officia laboriosam! Nihil suscipit, odio nostrum necessitatibus, quis reiciendis. Quibusdam, voluptates.</p>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia incidunt qui iste cum eum dolores sed hic optio. Nemo quia corporis, a rem fuga dolores tenetur consequuntur voluptatem non provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus debitis maxime voluptas at provident magni corporis inventore! Quisquam, enim officia laboriosam! Nihil suscipit, odio nostrum necessitatibus, quis reiciendis. Quibusdam, voluptates.</p>
 			<ul class="row margin-top-40">
 				<li class="product-item style3 mobile-slide-item col-sm-4 col-md-3">
 					<div class="product-inner">
@@ -348,7 +348,38 @@
         </div>
     </footer>
 	<a href="#" class="scroll_top" title="Scroll to Top" style="display: block;"><i class="fa fa-arrow-up"></i></a>
-	<!--	modals-->
+	    <!--    whatsapp-->
+    <button class="open-button" onclick="openForm()"><img src="images/ws.png" alt=""></button>
+    <div class="chat-popup appWhatsapp" id="myForm">
+        <form class="form-container">
+            <div class="dis-flex padd-box1">
+                <h2 class="tittle-chatbot">Hola, ¿En que podemos ayudarte?, te responderemos lo más pronto posible</h2>
+                <div style="width: 30px; height: 30px;">
+                    <button class="close-form" onclick="closeForm()" alt="">X</button>
+                </div>
+            </div>
+
+            <div class="padd-box2">
+                <input type="text" placeholder="Introduce tu mensaje..." style="margin-bottom: 0px !important;">
+            </div>
+            <!-- <textarea placeholder="Type message.." name="msg" required></textarea> -->
+            <a class="btn-enviar" target="_blank" href="https://api.whatsapp.com/send?phone=+593998517306&text=Hola quisiera información de productos Mutualista Pichincha!">
+                <img src="images/enviar.png" alt="whatsapp">
+            </a>
+        </form>
+    </div>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+    </script>
+    <!--	modals-->
 	<div class="modal fade" id="carrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
 		<div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
 			<div class="modal-content">
