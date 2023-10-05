@@ -360,7 +360,27 @@
         </div>
     </footer>
 	<a href="#" class="scroll_top" title="Scroll to Top" style="display: block;"><i class="fa fa-arrow-up"></i></a>
-	<!--	modals-->
+	<!--    whatsapp-->
+    <button class="open-button" onclick="openForm()"><img src="images/ws.png" alt=""></button>
+    <div class="chat-popup appWhatsapp" id="myForm">
+        <form class="form-container">
+            <div class="dis-flex padd-box1">
+                <h2 class="tittle-chatbot">Hola, ¿En que podemos ayudarte?, te responderemos lo más pronto posible</h2>
+                <div style="width: 30px; height: 30px;">
+                    <button class="close-form" onclick="closeForm()" alt="">X</button>
+                </div>
+            </div>
+
+            <div class="padd-box2">
+                <input type="text" placeholder="Introduce tu mensaje..." style="margin-bottom: 0px !important;">
+            </div>
+            <!-- <textarea placeholder="Type message.." name="msg" required></textarea> -->
+            <a class="btn-enviar" target="_blank" href="https://api.whatsapp.com/send?phone=+593998517306&text=Hola quisiera información de productos Mutualista Pichincha!">
+                <img src="images/enviar.png" alt="whatsapp">
+            </a>
+        </form>
+    </div>
+    <!--	modals-->
 	<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
 		<div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
 			<div class="modal-content">
