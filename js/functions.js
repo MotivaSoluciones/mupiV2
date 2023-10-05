@@ -333,11 +333,18 @@
 
     // Click on submenu responsive
     function submenuResponsive() {
-      if(window.innerWidth <= 550) {
-        $('.tab-product .box-categories li a').click(function() {
+      $('.tab-product .box-categories li a').click(function() {
+        if(window.innerWidth <= 550) {
           $(this).parents('li').siblings('li').find('.nav-tab__submenu').hide()
           $(this).siblings('.nav-tab__submenu').toggle()
-        })
+        }
+      })
+    }
+
+    function hideSubmenu(){
+      var submenu = $('.nav-tab__submenu')
+      if(submenu.is(':visible')) {
+        submenu.hide()
       }
     }
 
@@ -386,6 +393,8 @@
         js_height_full();
         js_width_full();
         heightheader_categoy_menu();
+        submenuResponsive();
+        hideSubmenu();
     });
     /* ---------------------------------------------
      Scripts scroll

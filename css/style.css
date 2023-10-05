@@ -5694,7 +5694,7 @@ FOOTER
     }
     
     .tab-product .box-categories li:hover .nav-tab__submenu {
-        display: block;
+        display: block !important;
     }
 }
 
