@@ -1679,7 +1679,7 @@ blockquote.style2:after {
 
 .header.style3 .top-header {
     width: 100%;
-    border-bottom: 1px dashed #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     padding-bottom: 17px;
     padding-top: 25px;
     display: table;
