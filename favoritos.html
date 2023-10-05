@@ -55,26 +55,16 @@
 								<div class="mini-cart" style="top: 3px;">
 									<a class="cart-link" href="#"><span class="icon pe-7s-cart"></span> <span class="count">2</span></a>
 									<div class="show-shopping-cart">
-										<h3 class="title">Tienes <span class="text-primary">(2 productos)</span> en tu carrito de compras</h3>
+										<h3 class="title"><span style="font-weight: 600">MIS PREMIOS</span>: Tienes <span class="text-primary">(2 productos)</span></h3>
 										<ul class="list-product">
 											<li>
 												<div class="thumb">
 													<img src="images/products/1.png" alt="">
 												</div>
 												<div class="info">
-													<h4 class="product-name"><a href="#">NOMBRE PRODUCTO</a></h4>
-													<span class="price" style="font-weight: 600">1 x 500 millas</span>
-													<a class="remove-item" href="#"><i class="fa fa-close"></i></a>
-												</div>
-											</li>
-											<li>
-												<div class="thumb">
-													<img src="images/products/1.png" alt="">
-												</div>
-												<div class="info">
-													<h4 class="product-name"><a href="#">NOMBRE PRODUCTO</a></h4>
-													<span class="price" style="font-weight: 600">1 x 500 millas</span>
-													<a class="remove-item" href="#"><i class="fa fa-close"></i></a>
+													<h4 class="product-name"><a href="detail-prod.html">NOMBRE PRODUCTO</a></h4>
+													<span class="price" style="font-weight: 600">2 x 500 millas</span>
+													<a class="remove-item" href=""><i class="fa fa-close"></i></a>
 												</div>
 											</li>
 										</ul>
@@ -85,18 +75,27 @@
 											<a href="carrito.html" class="check-out button">Ver mi carrito</a>
 											<a href="checkout.html" class="button">Canjear ahora</a>
 										</div>
+										
 									</div>
 								</div>
 								<div class="mini-cart" style="top: 3px">
 									<a class="cart-link" href="favoritos.html" style="font-size: 22px"><span class="lnr lnr-heart"></span></a>
 								</div>
 
-								<div class="mini-cart" style="top: 3px">
-                                    <a class="cart-link" href="mi-perfil.html" style="font-size: 22px"><span class="icon pe-7s-user"></span></a>
-                                </div>
-                                <div class="mini-cart" style="top: 3px">
-                                    <a class="cart-link" data-toggle="modal" data-target="#ingreso" style="font-size: 22px"><span class="icon pe-7s-unlock"></span></a>
-                                </div>
+								<div class="box-settings">
+									<span class="icon pe-7s-user"></span>
+									<div class="settings-wrapper ">
+										<div class="setting-content">
+											<div class="setting-option">
+												<ul>
+													<li><a href="mi-perfil.html"><i class="icon-heart icons"></i><span>Mi perfil</span></a></li>
+
+													<li><a href="login.html"><i class="icon-note icons"></i><span>Cerrar sesión</span></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<ul class="boutique-nav main-menu clone-main-menu">
@@ -284,6 +283,16 @@
             </a>
         </form>
     </div>
+        <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+    </script>
     <!--	MODALS-->
 	<div class="modal fade" id="carrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
 		<div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
@@ -373,7 +382,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <div class="container">dddd
+                        <div class="container">
                             <p class="text-center">Mutualista Pichincha 2023 - Todos los derechos reservados </p>
                         </div>
                     </div>
