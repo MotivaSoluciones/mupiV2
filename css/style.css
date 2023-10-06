@@ -5579,7 +5579,7 @@ FOOTER
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #d20b12;
+    background-color: #fff;
     margin: 0 auto;
     margin-top: 8px;
     content: '';
@@ -5705,7 +5705,7 @@ FOOTER
 
 .tab-product .box-categories li a span {
     display: none;
-    color: #d20b12;
+    color: #686868;
     font-size: 12px;
     text-transform: none;
     line-height: 18px;
