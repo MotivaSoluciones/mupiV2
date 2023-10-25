@@ -5688,11 +5688,11 @@ FOOTER
     .tab-product .box-categories li:hover > a {
         padding: 15px 70px;
     }
-    
+
     .tab-product .box-categories li:hover a span {
         display: inline;
     }
-    
+
     .tab-product .box-categories li:hover .nav-tab__submenu {
         display: block !important;
     }
@@ -9545,19 +9545,23 @@ RESPONSIVE
     .tab-product .nav-tab.box-categories {
         flex-direction: column;
     }
+
     .tab-product .nav-tab.box-categories li:not(:last-child) {
         border-right: none;
         border-bottom: 1px solid #eee;
     }
+
     .tab-product .nav-tab.box-categories li a {
         display: inline-flex;
         justify-content: start;
         padding: 15px;
     }
+
     .tab-product .nav-tab.box-categories li a span {
         display: block;
         color: #555;
     }
+
     .tab-product .nav-tab.box-categories li .nav-tab__submenu {
         position: relative;
         border-width: 1px 0 0 1px;
@@ -9814,7 +9818,7 @@ li.info-pts {
 
     align-items: center;
     position: fixed;
-    width: 320px;
+    width: 460px;
     z-index: 100;
     right: 50px;
     /* display: flex; */
@@ -9822,7 +9826,7 @@ li.info-pts {
 }
 
 .padd-box1 {
-    padding: 24px;
+    padding: 15px 0 15px 15px;
 }
 
 .padd-box2 {
@@ -9868,7 +9872,7 @@ li.info-pts {
 }
 
 .tittle-chatbot {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     color: #fff;
     font-weight: 600;
@@ -9994,4 +9998,22 @@ li.info-pts span {
     .conoce-footer {
         margin-left: 40px;
     }
+}
+
+@media (max-width:425px) {
+    .appWhatsapp {
+        width: auto;
+    }
+
+    .padd-box1 {
+        padding: 15px;
+    }
+}
+
+.close-ws {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
 }
