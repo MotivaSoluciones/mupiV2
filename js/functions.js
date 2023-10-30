@@ -307,17 +307,17 @@
      Init popup
      --------------------------------------------- */
     function init_popup(){
-        if($(window).width() + boutique_get_scrollbar_width() >= 768){
+//        if($(window).width() + boutique_get_scrollbar_width() >= 768){
             if($('body').hasClass('home')){
                 //Open directly via API
                 $.magnificPopup.open({
                   items: {
-                    src: '<div class="white-popup"><div class="kt-popup-newsletter"><div class="popup-title"><img src="./images/welcome.png" class="img-inicial"/></div></div></div>',  //can be a HTML string, jQuery object, or CSS selector
+                    src: '<div class="white-popup"><div class="kt-popup-newsletter"><div class="popup-title"><img src="./images/welcome.png" class="img-inicial web"/><img src="./images/W2.png" class="img-inicial mobile"/></div></div></div>',  //can be a HTML string, jQuery object, or CSS selector
                     type: 'inline'
                   }
                 });
             }
-        }
+//        }
     }
 
     function kt_parallax(){
