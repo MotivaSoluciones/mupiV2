@@ -240,7 +240,7 @@ input[type="submit"] {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    padding: 9px 25px;
+    padding: 9px 15px;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
@@ -2790,7 +2790,6 @@ blockquote.style2:after {
 /* PAGE LAYOUT */
 
 .page-title {
-    text-transform: uppercase;
     margin-bottom: 25px;
     margin-top: 25px;
 }
@@ -5565,7 +5564,7 @@ FOOTER
     display: inline-block;
     padding: 0 15px;
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .tab-product .nav-tab li a {
@@ -5578,7 +5577,7 @@ FOOTER
 .tab-product .nav-tab li a:after {
     width: 0px;
     height: 0px;
-    display: block;
+    /*    display: block;*/
     background-color: #fff;
     margin: 0 auto;
     margin-top: 0px;
@@ -6760,7 +6759,7 @@ table.group-product {
 
 table.group-product > tbody > tr > th,
 table.group-product > tbody > tr > td {
-    padding: 10px 30px;
+    padding: 10px;
     line-height: 24px;
     border: 1px solid #eee;
     border-color: #eee;
@@ -6770,7 +6769,7 @@ table.group-product > tbody > tr > td {
 table.group-product > tbody > tr > th {
     background-color: #eee;
     border: none;
-    text-transform: uppercase;
+
 }
 
 table.group-product a {
@@ -8210,7 +8209,7 @@ table {
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
-    text-transform: uppercase;
+  
 }
 
 .shop_table.cart .product-name a {
@@ -9715,10 +9714,9 @@ RESPONSIVE
 
 .favorito {
     background-color: #fff;
-
     border-left: 0;
     color: #d20b12;
-    padding: 11px 15px 13px;
+    padding: 11px 10px 13px;
     font-size: 14px;
     margin-top: 15px;
     position: relative;
@@ -10143,5 +10141,28 @@ li.info-pts span {
 @media(max-width:995px) {
     .header.style3 .logo {
         padding-top: 20px;
+    }
+}
+
+/*---7NOV2023---- */
+
+@media(max-width:280px) {
+    .correo {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .correo {
+        font-size: 11px;
+    }
+    .header.style3 .main-menu > li {
+        padding: 0 10.6px;
+    }
+}
+
+@media(max-width:320px) {
+    .button {
+        font-size: 10px;
     }
 }
