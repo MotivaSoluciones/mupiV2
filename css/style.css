@@ -1260,7 +1260,7 @@ blockquote.style2:after {
     opacity: 0;
     padding: 30px;
     position: absolute;
-    right: 0;
+    right: -30px;
     top: 100%;
     width: 368px;
     visibility: hidden;
@@ -3931,7 +3931,7 @@ ICON
 
 .element-icon.style2 {
     border: 1px dashed #37623b;
-    padding: 48px 15px;
+    padding: 48px;
     display: table;
     width: 100%;
 }
@@ -10152,6 +10152,18 @@ li.info-pts span {
 }
 
 @media(max-width:280px) {
+    .correo2 {
+        font-size: 11px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .correo2 {
+        font-size: 12px!important;
+    }
+}
+
+@media(max-width:1024px) {
     .element-icon.style2 {
         text-align: center;
         padding: 20px;
@@ -10171,5 +10183,13 @@ li.info-pts span {
 @media(max-width:320px) {
     .button {
         font-size: 10px;
+    }
+}
+
+@media(max-width:425px) {
+    .show-shopping-cart {
+        left: -148px;
+        width: 271px;
+        padding: 20px;
     }
 }
