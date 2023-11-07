@@ -8193,7 +8193,7 @@ table {
 
 .shop_table.cart .product-thumbnail,
 .shop_table.cart .product-name {
-    padding-left: 0;
+/*    padding-left: 0;*/
 }
 
 .shop_table.cart .product-thumbnail {
