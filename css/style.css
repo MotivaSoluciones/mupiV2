@@ -3931,11 +3931,9 @@ ICON
 
 .element-icon.style2 {
     border: 1px dashed #37623b;
-    padding: 48px;
-
+    padding: 48px 15px;
     display: table;
     width: 100%;
-
 }
 
 .element-icon.style2:before {
@@ -8193,7 +8191,7 @@ table {
 
 .shop_table.cart .product-thumbnail,
 .shop_table.cart .product-name {
-/*    padding-left: 0;*/
+    /*    padding-left: 0;*/
 }
 
 .shop_table.cart .product-thumbnail {
@@ -8209,7 +8207,7 @@ table {
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
-  
+
 }
 
 .shop_table.cart .product-name a {
@@ -10148,7 +10146,15 @@ li.info-pts span {
 
 @media(max-width:280px) {
     .correo {
-        font-size: 11px;
+        font-size: 11px !important;
+    }
+
+}
+
+@media(max-width:280px) {
+    .element-icon.style2 {
+        text-align: center;
+        padding: 20px;
     }
 }
 
@@ -10156,6 +10162,7 @@ li.info-pts span {
     .correo {
         font-size: 11px;
     }
+
     .header.style3 .main-menu > li {
         padding: 0 10.6px;
     }
