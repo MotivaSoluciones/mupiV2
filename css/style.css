@@ -10159,7 +10159,7 @@ li.info-pts span {
 
 @media (min-width:768px) and (max-width:991px) {
     .correo2 {
-        font-size: 12px!important;
+        font-size: 12px !important;
     }
 }
 
@@ -10192,4 +10192,9 @@ li.info-pts span {
         width: 271px;
         padding: 20px;
     }
+}
+
+.pagination > .active > a {
+    background-color: #d20b12;
+    border-color: #d20b12;
 }
