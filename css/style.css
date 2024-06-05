@@ -10198,3 +10198,13 @@ li.info-pts span {
     background-color: #d20b12;
     border-color: #d20b12;
 }
+
+.redes {
+    text-align: center;
+}
+
+@media(max-width:1024px) {
+    .redes {
+        text-align: left !important;
+    }
+}
