@@ -1773,7 +1773,7 @@ blockquote.style2:after {
 }
 
 .header.style3 .main-menu > li {
-    padding: 0 20px;
+    padding: 0 8px;
 }
 
 .header.style3 .main-menu > li:first-child {
