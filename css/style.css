@@ -1758,7 +1758,7 @@ blockquote.style2:after {
 
 .header.style3 .main-menu > li > a {
     padding: 18px 0;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .header.style3 .main-menu > li > a:hover,
@@ -10207,4 +10207,7 @@ li.info-pts span {
     .redes {
         text-align: left !important;
     }
+}
+.header.style3 .main-menu > li:nth-child(1){
+    display: none;
 }
